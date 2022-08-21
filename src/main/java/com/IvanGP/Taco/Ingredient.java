@@ -1,8 +1,10 @@
 package com.IvanGP.Taco;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 public class Ingredient {
 
     private final String id;
